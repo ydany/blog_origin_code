@@ -7,13 +7,12 @@ set -e
 npm run docs:build
 
 # 复制文件到其他项目
-cp -R /Users/hanlin/Desktop/nine/hanlin/wordpress/docs/.vuepress/dist/ /Users/hanlin/Desktop/nine/hanlin/alblog
-cd /Users/hanlin/Desktop/nine/hanlin/alblog
-
+cp -R /d/dan/blog_origin_code/docs/.vuepress/dist/. /d/dan/blog
+cd /d/dan/blog
 
 # 提交部署信息
 git add -A
 git commit -m 'deploy'
 git push
 
-cd /Users/hanlin/Desktop/nine/hanlin/wordpress
+cd /d/dan/blog_origin_code
