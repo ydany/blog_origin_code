@@ -27,6 +27,10 @@ module.exports = {
           title: '读书笔记',
           children: [
             {
+              title: '有点蠢了，但是没什么好办法',
+              path: '/read/read3'
+            },
+            {
               title: '《程序员的 38 堂成长课》8-14 读书笔记',
               path: '/read/read2'
             },
