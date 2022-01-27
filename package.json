@@ -1,0 +1,24 @@
+{
+  "name": "wordpress",
+  "version": "1.0.0",
+  "description": "al's blog",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARShl/wordpress.git"
+  },
+  "author": "al",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ARShl/wordpress/issues"
+  },
+  "homepage": "https://github.com/ARShl/wordpress#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
